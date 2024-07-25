@@ -1,0 +1,159 @@
+:root{
+    --color-primary:#7880cc;
+    --color-success:#41f1b6;
+    --color-warning:#ffbb55;
+    --color-whilte:#fff;
+    --color-info-dark:#7d8da1;
+    --color-info-light:#7d8da1;
+    --color-dark:#363949;
+    --color-light:rgb(132,139,200,0.18);;
+    --color-dark-variant:#677483;
+    --color-background:#f6f6f9;
+   
+    --card-border-radius:2rem;
+    --border-radius-1:0.4rem;
+    --border-radius-2:0.8rem;
+    --border-radius-3:1.2rem;
+    --card-padding:1.8rem;
+    --padding-1:1.2rem;
+    --box-shadow:0 2 rem 3rem var(--color-light);
+}
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    appearance:none;
+    border:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    font-family:sans-serif;
+    font-size: 0.88rem;
+    background: var(--color-background);
+    user-select: none;
+    overflow-x: hidden;
+}
+a{
+    color:var(--color-dark-variant);
+}
+h1{
+   margin-top:1.8rem ;
+}
+h2{
+    font-weight:600;
+    font-size:15px;
+    color: #363949;
+    margin-top: 1.8rem;
+}
+h3{
+    font-size: 0.87rem;
+    color:#363949;
+    margin-top: 1.8rem;
+}
+.profile-photo{
+    height:2.8rem;
+    width:2.8rem;
+    border-radius:50%;
+    overflow-x: hidden;
+}
+text-muted{
+    color:var(--color-info-dark);
+}
+p{
+    color:var(--color-dark-variant);
+}
+b{
+    color:var(--color-dark);
+}
+.primary{
+   color:var(--color-primary);
+}
+.danger{
+    color:var(--color-danger);
+ }
+ .success{
+    color:var(--color-success);
+ }
+ .warning{
+    color:var(--color-warning);
+ }
+ .container{
+    display:grid;
+    width:96%;
+    margin:0 auto;
+    background:rgb(233, 232, 244);
+    gap:1.8rem;
+    grid-template-columns:14rem auto 23rem;
+    
+ }
+ aside{
+    height:100vh;
+    background: rgb(242, 242, 249);
+    width:min-content;
+ }
+ aside .top{
+    background: #f6f6f9;
+    margin-top: 1.4rem;
+    display:flex;
+    justify-items:space-between;
+    align-items:center;
+
+
+ }
+ aside .logo img{
+    height:2rem;
+    width:2rem;
+ }
+ aside .logo{
+    display:flex;
+    gap:1rem;
+ }
+ aside .sidebar{
+    background-color: hwb(240 87% 7%);
+    display:flex;
+    flex-direction: column;
+    height:86vh;
+    position:relative;
+    top:3rem;
+ }
+ aside h3{
+    font-weight: 500;
+ }
+ aside .sidebar a{
+    display:flex;
+    color:var(--color-info-dark);
+    margin:1rem;
+    gap:1rem;
+    align-items: center;
+    position: relative;
+    height:3.7rem;
+ }
+ aside .sidebar a:hover{
+    background-color:rgba(185, 166, 222, 0.752);
+    color:var(--color-primary);
+    
+ }
+ .searchBar{
+   position:realtive;
+   top:355px;
+   left:575px;
+   display:flex;
+   margin-top:0.88rem;
+   gap:1rem;
+   align-items: center;
+ }
+ .searchBar input{
+    height:30px;
+    width:500px;
+    
+ }
+ .sales{
+   display:flex;
+ }
